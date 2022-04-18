@@ -66,7 +66,7 @@ document.getElementById("ingresar").onclick = function () {
                         console.log('Success:', response);
                         localStorage.setItem("user", response.user);
                         localStorage.setItem("name", response.name);
-                        window.location.href="html/dashboard.html";
+                        window.location.href="notas.html";
                       }
          );
 

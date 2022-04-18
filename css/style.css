@@ -7,7 +7,7 @@ body {
   font-size: 1em;
   line-height: 1.5em;
   /* Aquí el origen de la imagen */
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/fond.jpg);
    /* Fijar la imagen de fondo este vertical y horizontalmente y centrado */
   background-position: center center;
   /* Esta imagen no debe de repetirse */
@@ -42,6 +42,8 @@ body {
  p {
   margin: 0 0 1.5em 0;
   text-align: center;
+  font-size: 14px;
+  color: white;
 }
 
 img {
@@ -141,7 +143,7 @@ img {
   
   display: block;
   width: 100%;
-  height: 40px;
+  height: 32px;
   
   margin-bottom: 10px;
   padding: 5px 5px 5px 10px;
@@ -162,7 +164,7 @@ img {
 #login button {
   font-family: 'Overpass', sans-serif;
   font-size: 110%;
-  color:#1b262c;
+  color:#s;
   width: 100%;
   height: 40px;
   border: none;
@@ -171,13 +173,24 @@ img {
   -moz-border-radius: 3px 3px 3px 3px;
   -webkit-border-radius: 3px 3px 3px 3px;
   
-  background-color: #bbe1fa;
+  background-color: #D31024;
   
   margin-top: 10px;
 }
 
-#login button:hover {
-  background-color: #0f4c75;
-  color:#bbe1fa;
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
