@@ -3,11 +3,13 @@ body {
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
   color: #666;
-  background: #f2f2f2; 
+  background: gray; 
   font-size: 1em;
   line-height: 1.5em;
+
+  /* imagen de fondo 
   /* Aquí el origen de la imagen */
-  background-image: url(../img/fond.jpg);
+  background-image: url(../img/fondo.jpg);
    /* Fijar la imagen de fondo este vertical y horizontalmente y centrado */
   background-position: center center;
   /* Esta imagen no debe de repetirse */
@@ -182,15 +184,21 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color: black;
+  border-color: black;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid black;
   text-align: left;
   padding: 8px;
+  color: black;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+#info p{
+   color: black;
+}
